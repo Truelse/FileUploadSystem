@@ -28,7 +28,7 @@
         legend: {
           orient: 'vertical',
           top: 50,
-          right: 40,
+          right: 20,
           textStyle: {
             color: "#fff"
           }

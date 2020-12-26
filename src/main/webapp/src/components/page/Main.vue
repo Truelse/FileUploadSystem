@@ -1,23 +1,21 @@
 <template>
   <div id="data-view">
-    <dv-full-screen-container>
-      <MainHeader />
-      <div class="main-content">
-        <div class="main-left">
-          <LeftFilesArea />
-          <LeftChartArea />
-        </div>
-        <div class="main-middle">
-          <OptionArea />
-          <MapArea />
-        </div>
-        <div class="main-right">
-          <RightChartArea />
-          <!--表格-->
-          <TableArea />
-        </div>
+    <MainHeader />
+    <div class="main-content">
+      <div class="main-left">
+        <LeftFilesArea />
+        <LeftChartArea />
       </div>
-    </dv-full-screen-container>
+      <div class="main-middle">
+        <OptionArea />
+        <MapArea />
+      </div>
+      <div class="main-right">
+        <RightChartArea />
+        <!--表格-->
+        <TableArea />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -54,11 +52,15 @@
 </script>
 
 <style lang="less">
+  #app {
+    overflow: scroll;
+  }
+
   #data-view {
     width: 100%;
-    height: 100%;
     background-color: #030409;
     color: #fff;
+    overflow: auto;
 
     #dv-full-screen-container {
       background-image: url(../img/bg.png);
