@@ -1,8 +1,7 @@
 <template>
   <dv-border-box-12>
       <div class="tablearea">
-                  <p>未完成</p>
-
+            <p>未完成</p>
             <dv-scroll-board :config="config"  style="width:100%;height:320px" />
       </div>  
   </dv-border-box-12>
