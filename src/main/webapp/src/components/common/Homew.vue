@@ -1,6 +1,5 @@
 <template>
     <div class="wrapper">
-        <v-head @my-event="getMyEvent" ref="childrenmode"></v-head>
         <div class="content-box-homew" :class="{'content-collapse':collapse}">
             <div class="content">
                 <transition name="move" mode="out-in">

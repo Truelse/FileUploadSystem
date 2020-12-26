@@ -7,6 +7,15 @@ import './assets/css/theme-green/index.css'; // 浅绿色主题
 import './assets/css/icon.css';
 import './components/common/directives';
 import 'babel-polyfill';
+import VCharts from 'v-charts'
+
+
+Vue.use(VCharts)
+// 将自动注册所有组件为全局组件dataV 大数据框架使用
+import dataV from '@jiaminghi/data-view';
+
+Vue.use(dataV)
+
 
 Vue.config.productionTip = false;
 Vue.use(ElementUI, {
