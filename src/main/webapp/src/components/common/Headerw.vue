@@ -1,7 +1,8 @@
 <template>
     <div class="header">
         <!-- 折叠按钮 -->
-        <div class="logo" style="margin-left: 20px;">后台管理系统</div>
+        <div class="logo" style="margin-left: 20px;">市域社会治理智能化平台 —— 文件管理
+</div>
         <div class="header-right">
             <div class="header-user-con">
                 <!-- 全屏显示 -->
